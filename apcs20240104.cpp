@@ -1,7 +1,7 @@
 #include<iostream>
 #include<math.h>
 using namespace std;
-int b[100][100],a[100],c[100][100];
+int b[100][100],a[100],c[100][100]; //a記錄個個元素b紀錄區間成本c紀錄區間和
 int n;
 int mc(int op,int ed){
     if(b[op][ed]==-1){
